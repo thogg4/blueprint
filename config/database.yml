@@ -1,0 +1,17 @@
+staging:
+  adapter: postgresql
+  username: blue_print
+  password: blue_print
+  database: blue_print_stage
+
+development:
+  adapter: postgresql
+  username: blue_print
+  password: blue_print
+  database: blue_print_dev
+
+test:
+  adapter: postgresql
+  username: blue_print
+  password: blue_print
+  database: blue_print_test

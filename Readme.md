@@ -10,6 +10,7 @@ Uses
 * Bootstrap
 * Minitest
 * Factory Girl
+* Unicorn
 
 Any of these can be changed pretty easily.
 
@@ -21,5 +22,5 @@ Usage
 git clone git@github.com:nwalkingshaw/blueprint.git [FOLDER_NAME]
 ```
 
-* Add stuff to config/database.yml file
+* Change config/database.yml file
 * Customize!!
