@@ -23,4 +23,7 @@ git clone git@github.com:nwalkingshaw/blueprint.git [FOLDER_NAME]
 ```
 
 * Change config/database.yml file
+```
+rake db:create:all  
+```
 * Customize!!
