@@ -1,0 +1,18 @@
+// variables have to be set before importing bootstrap
+// set variables here
+
+// set the correct sprite paths
+$iconSpritePath: image-path('glyphicons-halflings.png');
+$iconWhiteSpritePath: image-path('glyphicons-halflings-white.png');
+
+$navbarBackground: #555;
+$navbarBackgroundHighlight: #888;
+$navbarText: #eee;
+$navbarLinkColor: #eee;
+
+
+// now import
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+
+// now include any overrides
