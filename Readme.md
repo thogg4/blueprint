@@ -11,6 +11,7 @@ Uses
 * Minitest
 * Factory Girl
 * Unicorn
+* Figaro for environment variables
 
 Any of these can be changed pretty easily.
 
@@ -26,4 +27,10 @@ git clone git@github.com:nwalkingshaw/blueprint.git [FOLDER_NAME]
 ```
 rake db:create:all  
 ```
+
+* Generate file for figaro
+```
+rails g figaro:install
+```
+
 * Customize!!

@@ -35,3 +35,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # server
 gem 'unicorn'
 gem 'foreman'
+
+# environment variables
+gem 'figaro'
