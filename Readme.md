@@ -38,5 +38,9 @@ Rename app using the included generator
 rails g print new_app_name
 ```
 
+Add to config/application.rb if deploying to Heroku
+```
+config.assets.initialize_on_precompile = false
+```
 
 ### Customize!!
